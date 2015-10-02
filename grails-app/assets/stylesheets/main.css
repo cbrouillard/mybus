@@ -1,0 +1,96 @@
+a{
+    color: #fff;
+    text-decoration: none;
+}
+body{
+    background-color: #222;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+div#title{
+    border-bottom: white 0.05em solid;
+    margin-right: 100px;
+}
+
+div#heure {
+    position: fixed;
+    top: -40pt;
+    right: 8pt;
+    padding: 0.2em;
+    padding-top: 40pt;
+    margin: 0;
+    background-color: navy;
+    border-radius: 0.56em;
+    border: white 0.18em solid;
+    z-index: 1;
+    text-align: center;
+
+    font-size: 50px;
+}
+
+div#next{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+div#nextvalue{
+    margin: 30px;
+    border: white 0.09em solid;
+    border-radius: 0.56em;
+    min-height: 350px;
+    padding-top: 200px;
+    font-size: 120px;
+}
+
+div#afternext{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+div#afternextvalue{
+    margin: 30px;
+    border: white 0.09em solid;
+    border-radius: 0.56em;
+    min-height: 350px;
+    padding-top: 200px;
+    font-size: 120px;
+}
+
+div.ok, span.ok {
+    background-color: #248006;
+}
+
+div.maybe, span.maybe {
+    background-color: orange;
+}
+
+div.late, span.late {
+    background-color: red;
+}
+span.legend{
+    width: 70px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 0.56em;
+}
+
+div#foot{
+    position: fixed;
+    bottom: -40pt;
+    right: 8pt;
+    left: 8pt;
+    padding: 0.2em;
+    padding-bottom: 40pt;
+    margin: 0;
+    background-color: navy;
+    border-radius: 0.56em;
+    border: white 0.18em solid;
+    z-index: 1;
+    text-align: center;
+
+    font-size: 50px;
+}
